@@ -78,6 +78,8 @@ ul {
 }
 .site-nav-link,
 .info-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-decoration: none;
   font-style: normal;
   color: var(--title-text-color);
@@ -102,8 +104,8 @@ ul {
 /* cтили ссылок */
 /* лого */
 .logo-link {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   text-decoration: none;
   font-style: normal;
   color: var(--logo-color);
@@ -341,6 +343,12 @@ ul {
 .location {
   font-style: normal;
 }
+
+.footer.logo-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .footer.logo-link,
 .location {
   color: var(--primary-white-color);
@@ -381,7 +389,6 @@ ul {
 }
 
 .product.card {
-  border: 1px solid var(--border-card-color);
   background-color: var(--primary-white-color);
   max-width: 370px;
   margin-right: 30px;
@@ -403,11 +410,12 @@ ul {
 }
 
 .product.card .content {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px;
+  border-left: 1px solid var(--border-card-color);
+  border-right: 1px solid var(--border-card-color);
+  border-bottom: 1px solid var(--border-card-color);
 }
+
 .product.name {
   color: var(--title-text-color);
   font-weight: var(--title-font-weight);
