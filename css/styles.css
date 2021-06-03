@@ -332,7 +332,7 @@ ul {
   font-style: normal;
 }
 
-.footer.logo-link,
+.footer-logo.logo-link,
 .location {
   color: var(--primary-white-color);
 }
